@@ -25,6 +25,16 @@
     }
 
   }
+
+  .error{
+    color: red;
+    font-size: 0.8rem;
+  }
+
+  .error_input{
+    border: 1px solid red;
+  }
+
   button {
     width: 30%;
     padding: 0.5rem;
