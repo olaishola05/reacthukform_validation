@@ -23,4 +23,8 @@
     width: 100%;
     margin: 50px auto;
   }
+
+  .description_header {
+    font-size: 1.5rem;
+  }
 }
