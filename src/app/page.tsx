@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <h1 className={styles.description_header}>Login Form</h1>
+        <h1 className={styles.description_header}>Create New Account</h1>
         <Form />
       </div>
     </main>

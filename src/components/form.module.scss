@@ -7,7 +7,6 @@
   padding: 1rem;
   margin: 0 auto;
   gap: 1rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 
   label{
     display: flex;
@@ -42,15 +41,15 @@
     border: 1px solid var(--color-primary);
     outline: none;
     font-size: 1rem;
-    background-color: var(--color-primary);
+    background-color: white;
     color: var(--color-white);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     align-self: center;
 
     &:hover{
-      background-color: var(--color-white);
-      color: var(--color-primary);
+      background-color: black;
+      color: white;
       border: 1px solid white;
     }
   }

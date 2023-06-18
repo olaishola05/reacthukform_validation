@@ -2,7 +2,7 @@
 
 import React from 'react'
 import styles from './form.module.scss'
-import { useForm } from 'react-hook-form';
+import { useForm, SubmitHandler } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 
@@ -24,7 +24,7 @@ const Form = () => {
     resolver: zodResolver(schema),
   });
 
-  const onSubmit = (data: any) => {
+  const onSubmit: SubmitHandler<ValidationSchemaType> = (data) => {
     console.log(data)
   }
 
