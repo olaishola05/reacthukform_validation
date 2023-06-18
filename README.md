@@ -1,2 +1,1 @@
-# reacthukform_validation
-React Hook Form with Zod form Validation
+# Form validation using React Hook Form and Zod
